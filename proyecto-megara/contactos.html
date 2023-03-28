@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="mobileNavbarContainer">
+        </nav>
+        <nav class="navbarContainer">
+            <img class="logo" src="assets/img/logo/logo.png" alt="">
+            <ul class="navbarContent">
+                
+                <li> <a href="./index.html">Inicio</a></li>
+                <li> <a href="./tratamientos.html">Tratamientos</a></li>
+                <li> <a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+                <li> <a href="./productos.html">Productos</a></li>
+                <li> <a href="./contactos.html">Contactos</a></li>
+            </ul>
+            <div class="search">
+                <img class="search" src="assets/img/lupa-buscador.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <h1>Contactos</h1>
+    </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1654282511604!2d-58.438675184838786!3d-34.62525958045389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca48e4e367e3%3A0x8dc430d2cc91f0d3!2sRiglos%20567%2C%20C1424AFK%20CABA!5e0!3m2!1ses!2sar!4v1679948655155!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+        <div class="consultas-formulario">
+            <a href="consultas">Consultas</a>
+        </div>
+        <div class="">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Realizá tu consulta</legend>
+                    <label for="">
+                        <span>Nombre:</span>
+                        <input type="text" id="nombre" placeholder="Aquí va tu nombre">
+                    </label>
+                    <label for="Mail">
+                        <span>Mail:</span>
+                        <input type="email" id="Mail" placeholder="Aquí va tu mail">
+                    </label>
+                    <label for="Asunto">
+                        <span>Asunto:</span>
+                        <input type="Asunto" id="Asunto" placeholder="Escribe tu consulta">
+                    </label>
+                    <label for="">
+                        <span>Mensaje (opcional)</span>
+                        <input type="Mensaje" id="Mensaje" placeholder="Escribe tu mensaje aquí">
+                    </label>
+                </fieldset>
+                <!--radio-->
+                <label for="Tratamiento corto">Tratamiento de 30 min</label>
+                <input type="radio" id="Tratamiento corto" name="edad" value="Tratamiento 30 min">
+                <label for="Tratamiento medio">Tratamiento de una 1 hs</label>
+                <input type="radio" id="Tratamiento medio" name="edad" value="Tratamiento de una hora">
+                <label for="Tratamiento largo">Tratamiento 1:30 hs</label>
+                <input type="radio" id="Tratamiento largo" name="edad" value="Tratamiento de 1:30">
+                <!-- cheackbox-->
+                <label for="acepta">Acepta términos y condiciones</label>
+                <input type="checkbox" id="acepta">
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+</main>
+    <footer>
+        <!--<div>
+            <a href="index.html" class="logo">Megara<br>Estética</a>
+        </div>
+        <div>
+            <a href="../pages/contactos.html">Nuestras Redes Sociales</a>
+        </div>-->
+        <div class="item"> 
+            <div><p>Estética</p></div>
+            <div class="address">
+                <img src="assets/img/ubicacion.png" alt="">
+                <p>Riglos 567, Caballito</p>
+            </div>
+        </div> 
+
+        <div class="item"> 
+            <div><p>Horarios de Atención</p></div>
+            <div class="dias">
+                <img src="assets/img/almanaque.png" alt="">
+                <p>Lunes, Miércoles y Viernes</p>
+                <p>09:00 a 19:00 hs</p>
+            </div>
+        </div> 
+
+        <div class="item"> 
+            <div><p>Consultas</p></div>
+            <div class="telefono">
+                <img src="assets/img/whatsapp.png" alt="">
+                <img src="assets/img/mail.png" alt="">
+                <p>1154242902</p>
+                <p>info@megara.com.ar</p>
+            </div>
+        </div> 
+
+    </footer>
+</body>
+</html>
